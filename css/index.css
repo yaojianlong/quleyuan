@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#wrapper,#container{
+	width: 100%;
+	height: 100%;
+}
+#wrapper{
+	position: absolute;
+	overflow: hidden;
+	left:0;
+	bottom: 0;
+	top:0;
+}
+.jiemain,.jiemain img{
+	width: 100%;
+	height: 100%;	
+}
+.jiemain{
+	top:0px;
+	position:fixed;
+	z-index: 100;
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+#footer a{
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+.footer_nav li{
+	height: 60px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.footer_nav li a{
+	height: 60px;
+	color: #000;
+}
+.nav_item{
+	font-size: 16px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.nav_ico{
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	height: 30px;
+}
